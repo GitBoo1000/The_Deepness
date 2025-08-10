@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "deepdark:item/processed_scullite_crystal"
+  }
+}

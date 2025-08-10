@@ -1,5 +1,6 @@
 package com.boo.deepdark;
 
+import com.boo.deepdark.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +12,7 @@ public class TheDeepness implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("Hello Fabric mod! Loading was successful!"); // to be removed in final version
+		ModItems.registerModItems();
 	}
 }
